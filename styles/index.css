@@ -1,7 +1,20 @@
+
 .profilePic {
     width: 400px;
     height: 500px;
     float: right;
+    border-radius: 50%;
+    
+}
+
+.intro {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.content {
+    text-align: left; 
+    width: 40%;
 }
 
 a {
@@ -18,52 +31,67 @@ h1 {
     font-style: normal;
 }
 
+h2 {
+    color: #0097a7;
+}
+
+h3 {
+    color: #78909c;
+}
+
 button {
     font-family: 'Open Sans', sans-serif;
-    color: #ABABAB;
+    color: #596571;
     font-style: normal;
+
 }
 
 body {
     margin: 0;
 }
+
 /* this is a comment */
 
 .mySkills {
     text-align: center;
 }
+
 .flexContainer {
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;
+    border: 3px solid;
 
 }
 
 .userExperience {
     width: 33%;
-    text-align: left;
+    /* text-align: left; */
 }
 
 .wireframing {
     width: 33%;
-    text-align: left;
+    /* text-align: left; */
 }
 
 .prototyping {
     width: 33%;
-    text-align: left;
+    /* text-align: left; */
 }
 
 .myWork {
     text-align: center;
 }
+
 .workGrid {
     display: flex;
     justify-content: space-between;
+    border: 3px solid;
 }
 
 .homeHelper {
     text-align: left;
 }
+
 .mobilePic {
     width: 200x;
     height: 200px;
