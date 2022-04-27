@@ -2,14 +2,15 @@
 .profilePic {
     width: 400px;
     height: 500px;
-    float: right;
     border-radius: 50%;
     
 }
 
 .intro {
     display: inline-flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .content {
@@ -20,6 +21,7 @@
 a {
     color: #596571;
     padding: 20px;
+    font-family: 'Karla', sans-serif;
 }
 
 h1 {
@@ -27,16 +29,18 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 900;
     font-size: 60px;
-    height: 79px;
     font-style: normal;
 }
 
 h2 {
     color: #0097a7;
+    font-family: 'Karla', sans-serif;
+    
 }
 
 h3 {
     color: #78909c;
+    font-family: 'Playfair Display', serif;
 }
 
 button {
@@ -59,7 +63,6 @@ body {
 .flexContainer {
     display: flex;
     justify-content: space-between;
-    border: 3px solid;
 
 }
 
@@ -85,7 +88,6 @@ body {
 .workGrid {
     display: flex;
     justify-content: space-between;
-    border: 3px solid;
 }
 
 .homeHelper {
@@ -124,4 +126,5 @@ body {
 
 p {
     color: #78828C;
+    font-family: 'Karla', sans-serif;
 }
