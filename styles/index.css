@@ -1,5 +1,99 @@
 .profilePic {
     width: 400px;
     height: 500px;
-    
+    float: right;
+}
+
+a {
+    color: #596571;
+    padding: 20px;
+}
+
+h1 {
+    color: #596571;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 60px;
+    height: 79px;
+    font-style: normal;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    color: #ABABAB;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+/* this is a comment */
+
+.mySkills {
+    text-align: center;
+}
+.flexContainer {
+    display: flex;
+    justify-content: space-between;   
+
+}
+
+.userExperience {
+    width: 33%;
+    text-align: left;
+}
+
+.wireframing {
+    width: 33%;
+    text-align: left;
+}
+
+.prototyping {
+    width: 33%;
+    text-align: left;
+}
+
+.myWork {
+    text-align: center;
+}
+.workGrid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.homeHelper {
+    text-align: left;
+}
+.mobilePic {
+    width: 200x;
+    height: 200px;
+}
+
+.desktopPic {
+    width: 200x;
+    height: 200px;
+}
+
+.watchPic {
+    width: 200x;
+    height: 200px;
+}
+
+.user {
+    width: 100x;
+    height: 100px;
+}
+
+.wireframe {
+    width: 100x;
+    height: 100px;
+}
+
+.prototype {
+    width: 100x;
+    height: 100px;
+}
+
+p {
+    color: #78828C;
 }
