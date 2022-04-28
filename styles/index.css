@@ -54,7 +54,7 @@ body {
     margin: 0;
 }
 
-/* this is a comment */
+/* <!-- My UX Skills section coded using CSS flex --> */
 
 .mySkills {
     text-align: center;
@@ -63,6 +63,10 @@ body {
 .flexContainer {
     display: flex;
     justify-content: space-between;
+    margin: 0px 5%;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "user experience wireframing prototyping";
 
 }
 
@@ -85,14 +89,29 @@ body {
     text-align: center;
 }
 
+/* <!-- My Work Section Constructed using CSS Grid --> */
+
+.homehelper {
+    grid-area: homehelper;
+}
+
+.vac {
+    grid-area: vac;
+}
+
+.caribou {
+    grid-area: caribou;
+}
+
 .workGrid {
     display: flex;
     justify-content: space-between;
+    margin: 0px 5%;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "homehelper vac caribou";
 }
 
-.homeHelper {
-    text-align: left;
-}
 
 .mobilePic {
     width: 200x;
@@ -127,4 +146,23 @@ body {
 p {
     color: #78828C;
     font-family: 'Karla', sans-serif;
+}
+
+footer {
+    text-align: center;
+    margin: 30px;
+}
+
+@media only screen and (max-width: 600) {
+    .flexContainer {
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: "user experience wireframing prototyping";
+    }
+
+    .workGrid {
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: "homeHelper vac caribou";
+    }
 }
